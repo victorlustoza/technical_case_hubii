@@ -4,7 +4,6 @@ module.exports = defineConfig({
   viewportWidth: 1280,
   viewportHeight: 720,
   defaultCommandTimeout: 15000,
-  retries: 2,
   reporter: 'cypress-multi-reporters',
   reporterOptions: {
     reporterEnabled: 'cypress-mochawesome-reporter, cypress-qase-reporter',
