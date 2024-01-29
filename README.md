@@ -35,7 +35,7 @@ As principais decisões técnicas foram usar Cypress para automação de testes 
 **Comentários relevantes sobre o projeto:**
 É importante ressaltar que este projeto foi feito pensando na qualidade como um todo e não apenas criando testes e automatizando-os. As integrações, a combinação de ferramentas e códigos foram feitas pensando em uma cultura centrada na qualidade a ser inserida e desenvolvida dentro de uma empresa que busca qualidade de processos, produtos e não contando apenas com QA's, mas também com desenvolvedores e equipe de produto. Melhorar passo a passo com a ajuda de todos é a chave para o sucesso.
 
-## Observations
+## Observações
 - Arquivos como `cypress.env.json` e `cypress.config.json` devem ser arquivos adicionados ao git ignore devido às informações confidenciais que eles carregam, como variáveis ​​importantes e chaves de API, por exemplo. Neste repositório eles foram enviados apenas para este teste, para que as pessoas possam cloná-lo e executá-lo corretamente.
 - Todos os casos de teste possuem suas informações corretas definidas como positivo/negativo, etapas, tipo etc, bastando abri-los em tela inteira para melhor visualização.
 - O QASE também pode ser integrado ao Jira ou outras ferramentas de gerenciamento de projetos para criar um fluxo de trabalho ainda melhor.
