@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "QASE_REPORT=1 npx cypress run"
+    "test:qase": "QASE_REPORT=1 npx cypress run"
   },
   "keywords": [],
   "author": "",

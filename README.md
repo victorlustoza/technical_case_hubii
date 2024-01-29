@@ -8,7 +8,7 @@ Repositório para disponibilizar automações do Caso Técnico da Hubii.
 Para desenvolver esta tarefa foi utilizada uma ferramenta de gerenciamento de testes chamada [QASE](https://qase.io/).
 Para acessar a plataforma você precisará clicar no link a seguir e usar estas credenciais:
 - https://app.qase.io/projects
-- E-mail: victororigintestuser@gmail.com
+- E-mail: victorqa.hubii@gmail.com
 - Senha: Teste@12345!
 
 Após o login, você deve selecionar o projeto "Caso Técnico Hubii". Na seção "Repository", você encontrará todos os casos de teste que foram criados a partir dos requisitos de atribuição.
