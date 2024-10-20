@@ -3,7 +3,7 @@ import { qase } from 'cypress-qase-reporter/dist/mocha';
 describe("Testes de Funcionalidade", () => {
 
   qase(1,
-    it("Validar se o usuário consegue pesquisar produtos com termos válidos", () => {
+    it("Valida que o usuário consegue pesquisar produtos com termos válidos", () => {
       Cypress.home_page.openHomePage();
       Cypress.header.fillInTheSearchField(
         Cypress.search.searchWord[1].keywordToSearch,
@@ -15,7 +15,7 @@ describe("Testes de Funcionalidade", () => {
   )
 
   qase(11,
-    it("Validar se o usuário consegue pesquisar produtos com termos inválidos - (Caso Negativo)", () => {
+    it("Valida que o usuário consegue pesquisar produtos com termos inválidos - (Caso Negativo)", () => {
       Cypress.home_page.openHomePage();
       Cypress.header.fillInTheSearchField(
         Cypress.search.searchWord[2].keywordToSearch,
@@ -25,7 +25,7 @@ describe("Testes de Funcionalidade", () => {
   )
 
   qase(2,
-    it("Validar se o usuário consegue visualizar informações importantes dos produtos", () => {
+    it("Valida que o usuário consegue visualizar informações importantes dos produtos", () => {
       Cypress.pdp_page.openPdpPage();
       Cypress.pdp_page.validateBreadcrumb();
       Cypress.pdp_page.validateTitleOfTheProduct(
@@ -40,7 +40,7 @@ describe("Testes de Funcionalidade", () => {
   )
 
   qase(3,
-    it("Validar se o usuário consegue adicionar produto ao carrinho e preencher dados para checkout(Sem concluir compra real)", () => {
+    it("Valida que o usuário consegue adicionar produto ao carrinho e preencher dados para checkout(Sem concluir compra real)", () => {
       cy.login();
       Cypress.header.validateVisibleInputSearch();
       Cypress.pdp_page.openPdpPage();
@@ -69,13 +69,13 @@ describe("Testes de Funcionalidade", () => {
   )
 
   qase(8,
-    it("Validar se o usuário consegue realizar login em uma conta existente", () => {
+    it("Valida que o usuário consegue realizar login em uma conta existente", () => {
       cy.login();
     })
   )
 
   qase(12,
-    it("Validar se o usuário consegue realizar login com dados inválidos - (Caso Negativo)", () => {
+    it("Valida que o usuário consegue realizar login com dados inválidos - (Caso Negativo)", () => {
       cy.invalid_login();
     })
   )
